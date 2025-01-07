@@ -1,0 +1,86 @@
+/* Primary - 밝은 하늘색 */
+.btn-primary,
+.bg-primary,
+.text-primary {
+  background-color: #4fc3f7 !important; 
+  border-color: #29b6f6 !important; 
+  color: #fff !important;
+}
+
+/* Secondary - 민트 */
+.btn-secondary,
+.bg-secondary,
+.text-secondary {
+  background-color: #80cbc4 !important; /* 밝은 민트 */
+  border-color: #26a69a !important; /* 어두운 민트 */
+  color: #fff !important;
+}
+
+/* Success - 밝은 초록 */
+.btn-success,
+.bg-success,
+.text-success {
+  background-color: #66bb6a !important; /* 밝은 초록 */
+  border-color: #43a047 !important; /* 어두운 초록 */
+  color: #fff !important;
+}
+
+/* Danger - 밝은 분홍 */
+.btn-danger,
+.bg-danger,
+.text-danger {
+  background-color: #ef5350 !important; /* 밝은 분홍 */
+  border-color: #e53935 !important; /* 어두운 분홍 */
+  color: #fff !important;
+}
+
+/* Warning - 밝은 노랑 */
+.btn-warning,
+.bg-warning,
+.text-warning {
+  background-color: #ffeb3b !important; /* 밝은 노랑 */
+  border-color: #fdd835 !important; /* 진한 노랑 */
+  color: #212121 !important; /* 가독성을 위한 어두운 글자 */
+}
+
+/* Info - 연보라 */
+.btn-info,
+.bg-info,
+.text-info {
+  background-color: #ba68c8 !important; /* 연보라 */
+  border-color: #ab47bc !important; /* 진보라 */
+  color: #fff !important;
+}
+
+/* Dark - 밝은 회색 */
+.btn-dark,
+.bg-dark,
+.text-dark {
+  background-color: #78909c !important; /* 밝은 회색 */
+  border-color: #546e7a !important; /* 어두운 회색 */
+  color: #fff !important;
+}
+
+/* Custom Carousel */
+.custom-carousel-item {
+  position: relative;
+  height: 60vh; /* 기본 높이 설정 */
+  background-color: #f9fbe7; /* 밝은 배경 */
+}
+
+.custom-carousel-image {
+  object-fit: cover; /* 이미지가 부모 요소에 맞게 잘리도록 설정 */
+  height: 100%; /* 이미지가 부모 요소의 높이를 채우도록 설정 */
+}
+
+@media (max-width: 767px) {
+  .custom-carousel-item {
+    height: 80vh; /* 모바일에서 높이 증가 */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .custom-carousel-item {
+    height: 70vh; /* 태블릿에서 높이 증가 */
+  }
+}
