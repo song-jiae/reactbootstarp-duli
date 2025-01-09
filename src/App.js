@@ -23,11 +23,11 @@ function App() {
             <Nav className="ms-auto">
               {" "}
               {/* ms-auto로 오른쪽 정렬 */}
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/gallery">Gallery</Nav.Link>
-              <Nav.Link href="/contact">Contact</Nav.Link>
-              <Nav.Link href="/shop">Shop</Nav.Link>
-              <Nav.Link href="/fanart">Fan Art</Nav.Link>
+              <Nav.Link href="about">About</Nav.Link>
+              <Nav.Link href="gallery">Gallery</Nav.Link>
+              <Nav.Link href="contact">Contact</Nav.Link>
+              <Nav.Link href="shop">Shop</Nav.Link>
+              <Nav.Link href="fanart">Fan Art</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -36,11 +36,11 @@ function App() {
       <Container className="mt-5">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/fanart" element={<FanArt />} />
+          <Route path="about" element={<About />} />
+          <Route path="gallery" element={<Gallery />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="shop" element={<Shop />} />
+          <Route path="fanart" element={<FanArt />} />
         </Routes>
       </Container>
 
